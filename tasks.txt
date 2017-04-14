@@ -1,0 +1,1 @@
+task #1 [2017-04-14] to provide a mehtod 'copy' to read from a text file and then write to a new text file as its copy.
