@@ -4,4 +4,5 @@ task #2 [2017-04-14] Read file contents into memory and print it out. Below is t
 					 ->MatricNo is a string with less than 10 alpha-numeric characters. 
 					 ->Hall is among ["uTown","Raffles","YIH"]
 					 ->Status can be 'Active' and 'Inactive'.
+					 ->When print the rows out, add comma (,) between each column
 					 ->A sample file named 'base.csv' is stored in exercise folder.
