@@ -1,1 +1,7 @@
 task #1 [2017-04-14] to provide a mehtod 'copy' to read from a text file and then write to a new text file as its copy.
+task #2 [2017-04-14] Read file contents into memory and print it out. Below is the detail:
+                     -> Each row of the file contains three columns, namely "MatricNo","Hall",and "Status", these three columns are separated by space.
+					 ->MatricNo is a string with less than 10 alpha-numeric characters. 
+					 ->Hall is among ["uTown","Raffles","YIH"]
+					 ->Status can be 'Active' and 'Inactive'.
+					 ->A sample file named 'base.csv' is stored in exercise folder.
