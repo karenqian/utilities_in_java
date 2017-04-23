@@ -6,3 +6,24 @@ task #2 [2017-04-14] Read file contents into memory and print it out. Below is t
 					 ->Status can be 'Active' and 'Inactive'.
 					 ->When print the rows out, add comma (,) between each column
 					 ->A sample file named 'base.csv' is stored in exercise folder.
+task #3 [2017-04-23] Reconcile two transaction ledger
+  -> text_version01.txt contains the below content
+     T0001,500
+     T0002,700
+     T0004,100
+     T0005,200
+  -> text_new.txt contains the below content
+     T0001,500
+     T0003,250
+     T0004,150
+     T0005,200
+     T0007,300
+  -> Write a method to show the conflicts, the console shall display the below message:
+     
+     [delete] T0002,700
+     [add] T0003,250
+     [update]
+       old:T0004,100
+       new:T0004,150
+     [add] T0007,300
+
