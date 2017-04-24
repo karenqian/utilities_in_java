@@ -4,6 +4,8 @@ import java.io.*;
 import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.channels.FileChannel;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ReadFile {
 
@@ -106,8 +108,5 @@ public class ReadFile {
 		}
 	}
 	
-	public static void testMethod(String filePath) {
-		
-	}
-
+	
 }
