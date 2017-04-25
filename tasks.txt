@@ -26,4 +26,26 @@ task #3 [2017-04-23] Reconcile two transaction ledger
        old:T0004,100
        new:T0004,150
      [add] T0007,300
+task #4 [2017-04-25] Read information from hall_resident_details.txt, sort the students information by date, student_id, meal_type
+        -> hall_resident_details.txt contains the below information
 
+	   student_id,meal_type,date
+	   M000001, breakfast, 2017-04-01
+	   M000001, breakfast, 2017-04-03
+	   M000001, breakfast, 2017-04-04
+	   M000001, lunch, 2017-04-01
+	   M000001, lunch, 2017-04-04
+	   M000007, breakfast, 2017-04-01
+	   M000007, breakfast, 2017-04-02
+	   M000007, breakfast, 2017-04-03
+	   M000007, breakfast, 2017-04-04
+	   M000007, lunch, 2017-04-01
+	   M000007, lunch, 2017-04-02
+	   M000007, lunch, 2017-04-03
+	   M000007, dinner, 2017-04-03
+	   M000009, breakfast, 2017-04-01
+	   M000009, breakfast, 2017-04-03
+	   M000009, breakfast, 2017-04-04
+	   M000009, lunch, 2017-04-02
+	   M000009, lunch, 2017-04-03
+	   M000009, lunch, 2017-04-04
