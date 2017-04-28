@@ -37,9 +37,9 @@ public class MealList {
 			
 		Collections.sort(_mealList, new Comparator<Meal>() {
 		    @Override
-		    public int compare(Meal o1, Meal o2) {
-		        final String date1 = o1.getDate();
-		        final String date2 = o2.getDate();
+		    public int compare(Meal m1, Meal m2) {
+		        final String date1 = m1.getDate();
+		        final String date2 = m2.getDate();
 		        return date1.compareTo(date2);
 		    }
 		});
