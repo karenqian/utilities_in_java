@@ -49,3 +49,8 @@ task #4 [2017-04-25] Read information from hall_resident_details.txt, sort the s
 	   M000009, lunch, 2017-04-02
 	   M000009, lunch, 2017-04-03
 	   M000009, lunch, 2017-04-04
+task #5 [2017-04-28] Write an application using java.net.* to get the content of the google.com.
+        ->server name is google.com
+	->port is 80
+	->reqeust content is "GET / HTTP/1.1"
+
