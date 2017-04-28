@@ -2,7 +2,7 @@ package com.kaguya.utils;
 
 import java.io.IOException;
 
-public class TestClass {
+public class TransactionsTestClass {
 	public static void main(String[] args) throws IOException {
 		TransactionList ts1 = new TransactionList();
 		TransactionList ts2 = new TransactionList();
