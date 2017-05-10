@@ -1,0 +1,10 @@
+- will create new package for web crawler thing
+- idea 
+  > make own HTML parser class
+
+- use GUAVA library ok?
+- https://jsoup.org/
+
+- HTMLParser
+- HTML tags
+- tokeniser
