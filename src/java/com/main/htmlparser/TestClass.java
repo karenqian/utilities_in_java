@@ -16,13 +16,13 @@ public class TestClass {
 		 *  
 		 */
 		
-		HtmlParser h = new HtmlParser("D:\\test.html"); // Make new parser h for file stated in params.
+		HtmlParser h = new HtmlParser("C:\\dev\\GitHub\\utilities_in_java\\exercise\\test.html"); // Make new parser h for file stated in params.
 		HtmlTag doc = h.parse(); // parse() method of HtmlParser returns a HtmlTag object, which is supposed to be the tag <html> at the start of every html document.
 		
 		doc.debug(); // Prints out tree of HtmlTag object.
-		System.out.println(doc.buildString()); // buildString() attempts to put HtmlTag object back into HTML format.
+		//System.out.println(doc.buildString()); // buildString() attempts to put HtmlTag object back into HTML format.
 		
-		doc.dump("D:\\test2.html"); // Dumps String after buildString() is called on HtmlTag into a HTML file stated in params.
+		doc.dump("C:\\dev\\GitHub\\utilities_in_java\\exercise\\test2.html"); // Dumps String after buildString() is called on HtmlTag into a HTML file stated in params.
 		
 	}
 	
