@@ -54,3 +54,5 @@ task #5 [2017-04-28] Write an application using java.net.* to get the content of
 	->port is 80
 	->reqeust content is "GET / HTTP/1.1"
 
+task #6 [2017-05-09] Write HTML parser that can return HTML elements. Refer to JSoup.
+
